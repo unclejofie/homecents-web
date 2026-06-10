@@ -46,23 +46,38 @@ export default function Support() {
           </div>
 
           <div>
+            <h3 className="font-medium text-gray-800 mb-2">What subscription plans are available?</h3>
+            <p className="text-gray-600 text-sm">
+              <strong>Free</strong> — local budgeting on one device with 5 lifetime receipt scans.{" "}
+              <strong>Basic</strong> ($0.99/mo or $9.99/yr) — cloud sync and multi-device access with
+              5 scans per month. <strong>Premium</strong> ($5.99/mo or $59.99/yr) — family sharing,
+              unlimited receipt scans, and household invites. Manage subscriptions in the app under
+              Settings or through your Apple ID.
+            </p>
+          </div>
+
+          <div>
             <h3 className="font-medium text-gray-800 mb-2">How do I invite family members to my household?</h3>
             <p className="text-gray-600 text-sm">
-              In the app, go to Settings and tap "Invite Someone". Enter their email address and they'll receive an invitation to join your household.
+              Family invites require a Premium subscription. In the app, go to Settings and tap
+              &quot;Invite Someone&quot;. Enter their email address and they&apos;ll receive an
+              invitation to join your household.
             </p>
           </div>
 
           <div>
             <h3 className="font-medium text-gray-800 mb-2">Is my financial data secure?</h3>
             <p className="text-gray-600 text-sm">
-              Yes! Your data is encrypted and stored securely. We never share your financial information with third parties.
+              Yes. Your data is encrypted in transit and at rest. We never sell your financial
+              information to third parties.
             </p>
           </div>
 
           <div>
             <h3 className="font-medium text-gray-800 mb-2">Can I use Home Cents on multiple devices?</h3>
             <p className="text-gray-600 text-sm">
-              Yes! Your data syncs across all your devices automatically. Just sign in with the same account.
+              Multi-device cloud sync is included with Basic and Premium plans. Sign in with the
+              same account on each device. Free accounts keep data on the device where it was entered.
             </p>
           </div>
 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import { getAppStoreHref, hasDirectAppStoreListing } from "@/lib/siteConfig";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -51,7 +52,15 @@ export default function RootLayout({
                 <p className="font-semibold">Home Cents Family Budgeting</p>
                 <p className="text-sm text-amber-200">Simple budgeting for busy families</p>
               </div>
-              <div className="flex gap-6 text-sm">
+              <div className="flex flex-wrap justify-center gap-6 text-sm">
+                <a
+                  href={getAppStoreHref()}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition"
+                >
+                  {hasDirectAppStoreListing() ? "App Store" : "Find on App Store"}
+                </a>
                 <Link href="/privacy" className="hover:text-white transition">
                   Privacy Policy
                 </Link>

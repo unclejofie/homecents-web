@@ -6,7 +6,7 @@ export default function Privacy() {
 
         <div className="prose prose-amber max-w-none text-gray-600">
           <p className="mb-4">
-            <strong>Last updated:</strong> January 2026
+            <strong>Last updated:</strong> June 2026
           </p>
 
           <h2 className="text-xl font-semibold text-amber-800 mt-8 mb-4">Information We Collect</h2>
@@ -25,8 +25,9 @@ export default function Privacy() {
           </p>
           <ul className="list-disc pl-6 mb-4 space-y-2">
             <li>Provide and maintain the Home Cents service</li>
-            <li>Sync your data across devices</li>
-            <li>Enable household sharing features</li>
+            <li>Sync your data across devices (Basic and Premium plans)</li>
+            <li>Enable household sharing features (Premium plan)</li>
+            <li>Process receipt scans through our secure cloud service</li>
             <li>Send password reset emails when requested</li>
           </ul>
 

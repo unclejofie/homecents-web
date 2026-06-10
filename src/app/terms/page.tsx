@@ -6,7 +6,7 @@ export default function Terms() {
 
         <div className="prose prose-amber max-w-none text-gray-600">
           <p className="mb-4">
-            <strong>Last updated:</strong> January 2026
+            <strong>Last updated:</strong> June 2026
           </p>
 
           <h2 className="text-xl font-semibold text-amber-800 mt-8 mb-4">Acceptance of Terms</h2>
@@ -40,9 +40,19 @@ export default function Terms() {
             <li>Upload malicious code or content</li>
           </ul>
 
+          <h2 className="text-xl font-semibold text-amber-800 mt-8 mb-4">Subscriptions</h2>
+          <p className="mb-4">
+            Home Cents offers Free, Basic, and Premium plans. Paid subscriptions are billed through
+            your Apple ID and managed via the App Store. Cloud sync requires Basic or Premium.
+            Family sharing and household invites require Premium. Subscription terms, pricing, and
+            renewal are governed by Apple&apos;s terms at the time of purchase.
+          </p>
+
           <h2 className="text-xl font-semibold text-amber-800 mt-8 mb-4">Household Sharing</h2>
           <p className="mb-4">
-            When you invite someone to your household, they will have access to view and edit shared budget data. You are responsible for managing who has access to your household. We recommend only inviting people you trust.
+            Premium subscribers may invite others to a shared household. Invited members can view
+            and edit shared budget data. You are responsible for managing who has access to your
+            household. We recommend only inviting people you trust.
           </p>
 
           <h2 className="text-xl font-semibold text-amber-800 mt-8 mb-4">Disclaimer</h2>
