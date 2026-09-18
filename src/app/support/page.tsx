@@ -49,7 +49,7 @@ export default function Support() {
             <h3 className="font-medium text-gray-800 mb-2">What subscription plans are available?</h3>
             <p className="text-gray-600 text-sm">
               <strong>Free</strong> — local budgeting on one device with 5 lifetime receipt scans.{" "}
-              <strong>Basic</strong> ($0.99/mo or $9.99/yr) — cloud sync and multi-device access with
+              <strong>Basic</strong> ($1.99/mo or $14.99/yr) — cloud sync and multi-device access with
               5 scans per month. <strong>Premium</strong> ($5.99/mo or $59.99/yr) — family sharing,
               unlimited receipt scans, and household invites. Manage subscriptions in the app under
               Settings or through your Apple ID.
