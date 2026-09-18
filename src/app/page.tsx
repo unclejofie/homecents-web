@@ -9,7 +9,7 @@ const plans = [
   },
   {
     name: "Basic",
-    price: "$0.99/mo",
+    price: "$1.99/mo",
     detail: "Cloud sync, multi-device access, 5 receipt scans per month",
   },
   {
